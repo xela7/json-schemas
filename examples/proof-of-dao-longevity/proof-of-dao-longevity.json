@@ -3,8 +3,8 @@
   "type": "object",
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/xela7/json-schemas/main/examples/proof-of-dao-longevity/proof-of-dao-longevity.jsonld",
-      "jsonSchema": "https://github.com/xela7/json-schemas/blob/main/examples/proof-of-dao-longevity/proof-of-dao-longevity-vocab.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/xela7/json-schemas/master/examples/proof-of-dao-longevity/proof-of-dao-longevity.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/xela7/json-schemas/master/examples/proof-of-dao-longevity/proof-of-dao-longevity.json"
     }
   },
   "required": [

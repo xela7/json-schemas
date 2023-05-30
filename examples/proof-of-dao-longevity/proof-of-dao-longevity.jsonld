@@ -6,13 +6,13 @@
       "id": "@id",
       "type": "@type",
       "ProofOfDaoLongevity": {
-        "@id": "https://raw.githubusercontent.com/xela7/json-schemas/main/examples/proof-of-dao-longevity/proof-of-dao-longevity.jsonld#ProofOfDaoLongevity",
+        "@id": "https://raw.githubusercontent.com/xela7/json-schemas/master/examples/proof-of-dao-longevity/proof-of-dao-longevity.jsonld#ProofOfDaoLongevity",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "vocab": "https://github.com/xela7/json-schemas/blob/main/examples/proof-of-dao-longevity/proof-of-dao-longevity-vocab.md#",
+          "vocab": "https://raw.githubusercontent.com/xela7/json-schemas/master/examples/proof-of-dao-longevity/proof-of-dao-longevity-vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "entryDate": {
             "@id": "vocab:entryDate",
