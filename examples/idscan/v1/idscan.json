@@ -81,15 +81,137 @@
     },
     "credentialSubject": {
       "type": "object",
-      "required": ["id", "entryDate"],
       "properties": {
-        "id": {
-          "title": "Credential Subject ID",
-          "type": "string",
-          "format": "uri"
+        "journeyId": {
+          "type": "string"
+        },
+        "highLevelResult": {
+          "type": "string"
+        },
+        "firstName": {
+          "type": "string"
+        },
+        "middleName": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "age": {
+          "type": "string"
+        },
+        "citizenship": {
+          "type": "string"
+        },
+        "documentCategory": {
+          "type": "string"
+        },
+        "documentName": {
+          "type": "string"
+        },
+        "documentSide": {
+          "type": "string"
+        },
+        "documentType": {
+          "type": "string"
         },
         "entryDate": {
-          "type": "integer"
+          "type": "string",
+          "format": "date"
+        },
+        "entryTime": {
+          "type": "string"
+        },
+        "fullName": {
+          "type": "string"
+        },
+        "addressLine1": {
+          "type": "string",
+          "nullable": true
+        },
+        "addressLine2": {
+          "type": "string",
+          "nullable": true
+        },
+        "birthDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "birthPlace": {
+          "type": "string"
+        },
+        "highLevelResultDetails": {
+          "type": "object",
+          "properties": {
+            "documentOverallValidation": {
+              "type": "string"
+            },
+            "documentBlockingPolicy": {
+              "type": "string"
+            },
+            "documentExpiry": {
+              "type": "string"
+            },
+            "documentSupport": {
+              "type": "string"
+            },
+            "documentValidation": {
+              "type": "string"
+            },
+            "faceMatchValidation": {
+              "type": "string"
+            },
+            "accumulativeLivenessResult": {
+              "type": "string"
+            }
+          }
+        },
+        "faceMatchScore": {
+          "type": "string"
+        },
+        "qualityCheckDetails": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "state": {
+                "type": "integer"
+              }
+            }
+          }
+        },
+        "validationDetails": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "result": {
+                "type": "integer"
+              }
+            }
+          }
+        },
+
+        "id": {
+          "type": "string"
         }
       }
     }
