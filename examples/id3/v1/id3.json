@@ -82,37 +82,29 @@
     "credentialSubject": {
       "type": "object",
       "properties": {
-        "credentialSubject": {
-          "type": "object",
-          "properties": {
-            "journeyId": {
-              "type": "string"
-            },
-            "amendmentsData": {
-              "type": "object"
-            },
-            "originalData": {
-              "type": "object"
-            },
-            "personalDetails": {
-              "type": "object"
-            },
-            "id": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "journeyId",
-            "amendmentsData",
-            "originalData",
-            "personalDetails",
-            "id"
-          ]
+        "journeyId": {
+          "type": "string"
+        },
+        "amendmentsData": {
+          "type": "object"
+        },
+        "originalData": {
+          "type": "object"
+        },
+        "personalDetails": {
+          "type": "object"
         },
         "id": {
           "type": "string"
         }
-      }
+      },
+      "required": [
+        "journeyId",
+        "amendmentsData",
+        "originalData",
+        "personalDetails",
+        "id"
+      ]
     }
   }
 }

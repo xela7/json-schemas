@@ -213,7 +213,33 @@
         "id": {
           "type": "string"
         }
-      }
+      },
+      "required": [
+        "journeyId",
+        "highLevelResult",
+        "firstName",
+        "middleName",
+        "lastName",
+        "gender",
+        "age",
+        "citizenship",
+        "documentCategory",
+        "documentName",
+        "documentSide",
+        "documentType",
+        "entryDate",
+        "entryTime",
+        "fullName",
+        "addressLine1",
+        "addressLine2",
+        "birthDate",
+        "birthPlace",
+        "highLevelResultDetails",
+        "faceMatchScore",
+        "qualityCheckDetails",
+        "validationDetails",
+        "id"
+      ]
     }
   }
 }
