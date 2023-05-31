@@ -6,7 +6,7 @@
       "id": "@id",
       "type": "@type",
       "ID3-nested": {
-        "@id": "https://raw.githubusercontent.com/xela7/json-schemas/master/examples/id3/v2/id3.jsonld#ID3",
+        "@id": "https://raw.githubusercontent.com/xela7/json-schemas/master/examples/id3/v2/id3.jsonld#ID3-nested",
         "@context": {
           "@version": 1.1,
           "@protected": true,
