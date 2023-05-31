@@ -92,7 +92,8 @@
           "type": "object"
         },
         "personalDetails": {
-          "type": "object"
+          "type": "object",
+          "$ref": "https://raw.githubusercontent.com/xela7/json-schemas/master/examples/personal-details/v1/personal-details.json"
         },
         "id": {
           "type": "string"
